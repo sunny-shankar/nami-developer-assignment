@@ -1,10 +1,12 @@
 import './App.css'
-
+import TopNav from "./components/TopNav"
+import HorizontalLine from './components/HorizontalLine'
 function App() {
 
   return (
     <>
-      <div>Nami</div>
+      <TopNav />
+      <HorizontalLine />
     </>
   )
 }
